@@ -1,0 +1,101 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+header {
+  background-color: #80ebe1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+header img {
+  height: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    gap: 8px;
+    background-color: #f7f9fa;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #005594;
+}
+nav button {
+    border: none
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    gap: 8px;
+    background-color: #005594;
+}
+nav button:hover{
+    background-color: #275b83;
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+    height: 150px;
+
+}
+.card-content {
+  padding: 16px;
+}
+.cursos {
+    display: flex;
+}
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+    height: 150px;
+}
+.card-content {
+  padding: 16px;
+}
+img {
+    height: 150px;
+
+}
+
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+  height: 150px;
+}
+.card-content {
+  padding: 16px;
+}
+img {
+    height: 150px;
+}
+
+.body{
+background-color: #000000;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+}
